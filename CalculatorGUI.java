@@ -21,7 +21,7 @@ public class CalculatorGUI extends JFrame {
     public CalculatorGUI() {
         setTitle("GUI Calculator");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(300, 200);
+        setSize(1000, 400);
         setLayout(new FlowLayout());
 
         num1Field = new JTextField(10);
